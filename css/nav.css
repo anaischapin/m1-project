@@ -1,0 +1,29 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 100px;
+    height: 100px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    color: #FFFFFF;
+    margin: 20px;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+a:hover {
+    color: #9500ff;
+    transition: all .3s;
+}

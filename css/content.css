@@ -1,0 +1,143 @@
+body {
+    font-family: "Montserrat";
+}
+
+.container {
+    margin: 0 50px 0 50px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+hr {
+    width: 5.625rem;
+    height: 0.1875rem;
+    background-color: #9500ff;
+}
+
+.btn {
+    padding: .5rem 1.5rem;
+    border: 1px solid #9500ff;
+    border-radius: 0;
+    color: #9500ff;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: #9500ff;
+    color: #232323;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/*HEADER*/
+
+header {
+    height: 100vh;
+    background-image: url("http://res.cloudinary.com/cyrilg/image/upload/v1500226721/header-bg_pyddzq.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.header_content {
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.header_content p {
+    line-height: 2.25rem;
+    font-size: 38px;
+}
+
+.header_content .btn {
+    margin-top: 3rem;
+}
+
+
+/*CONTACT*/
+
+#contact {
+    padding: 5rem 0;
+    background-color: #9500ff;
+    text-align: center;
+}
+
+#contact .lead {
+    margin-bottom: -.25rem;
+    font-size: 1.85rem;
+    font-weight: 700;
+}
+
+#contact p {
+    font-size: 1.65rem;
+    font-weight: 300;
+}
+
+#contact .text-animate {
+    font-weight: 700;
+}
+
+#contact .btn {
+    margin-top: 2.5rem;
+    border: 2px solid #232323;
+    color: #232323;
+}
+
+#contact .btn:hover {
+    background-color: #232323;
+    color: #9500ff;
+}
+
+#contact .follow {
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+#contact .follow a {
+    color: #232323;
+    transition: all .3s;
+}
+
+#contact .follow a:hover {
+    color: #fff;
+}
+
+
+
+#footer {
+    padding: .5rem 0;
+    background-color: #232323;
+    text-align: center;
+    color: #fff;
+}
+
+#footer p {
+    font-size: .85rem;
+}
+
+#footer p a {
+    color: #fff;
+    text-decoration: underline;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+#footer p a:hover {
+    color: #9500ff;
+}
+
+#footer p .fa-heart {
+    color: red;
+}

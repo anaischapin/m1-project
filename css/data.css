@@ -1,0 +1,51 @@
+#data {
+  background-color: #232323;
+  padding: 5rem 0;
+}
+
+#data h2 {
+  color: #9500ff;
+  text-align: center;
+}
+
+ hr {
+  margin-bottom: 3rem;
+  border-color: #9500ff;
+}
+
+#data .skill {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#data .skill .skills__percent {
+  margin-right: 1.75rem;
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: #ccc;
+}
+
+#data .skill .progress-container {
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  font-size: 1.125rem;
+  color: #f3f3f3;
+}
+
+#data .skill .progress-container .progress {
+  border-radius: 0;
+  margin-top: .35rem;
+  background-color: #373737;
+}
+
+#data .skill .progress-container .progress .progress-bar {
+  height: 1.125rem;
+  background-color: #9500ff;
+}

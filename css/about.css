@@ -1,0 +1,40 @@
+#about {
+    padding: 5rem 0;
+    text-align: center; 
+}
+#about img {
+      height: 150px;
+      width: auto;
+      padding: .2rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem; 
+}
+
+#about .lead {
+      font-size: 1.5rem;
+      color: #9500ff;
+      font-weight: 700;
+      margin-bottom: 1.5rem; 
+}
+    
+#about p {
+      font-size: 1.25rem;
+      color: #232323; 
+}
+      
+#about p a {
+        color: #232323;
+        text-decoration: underline;
+        -webkit-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s; 
+}
+        
+#about p a:hover {
+          color: #9500ff; 
+}
+    
+#about p + p {
+      margin-bottom: 2rem; 
+}
+  

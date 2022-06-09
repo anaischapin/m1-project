@@ -1,0 +1,16 @@
+#portfolio {
+    background-color: #FFFFFF;
+    padding: 5rem 0; 
+    display: flex;
+    justify-content: center;
+}
+
+#portfolio h2 {
+      color: #9500ff;
+      text-align: center; 
+
+}
+
+#portfolio hr {
+      margin-bottom: 3rem; 
+}
